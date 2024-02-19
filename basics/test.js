@@ -15,8 +15,8 @@ console.log(accountId);
 console.table([email,pass,city,state])
 
 //Datatypes
-let name="Michelle"
-let age=22
+let name="Michelle" //String
+let age=22 //Number
 let isInLove=false
 //null is of object datatype
 let stateOfMind=null
