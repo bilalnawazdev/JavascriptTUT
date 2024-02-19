@@ -1,4 +1,4 @@
-let score="100"
+/*let score="100"
 console.log(typeof score)
 
 let value=Number(score)
@@ -28,4 +28,49 @@ console.log(nullnumby)
 console.log("Boolean")
 let num=-6
 let boo=Boolean(num)
-console.log(boo)
+console.log(boo)*/
+
+//**************************** OPERATIONS
+
+console.log(2*2)
+let str1="Hello"
+let str2="Bye"
+let str3=str1+str2
+console.log(str3)
+//mindF thing
+//once it encounters a string datatype it will start trating the following operation as a string datatype
+console.log(1+"2")
+console.log("1"+2)
+console.log(1+2+"2")
+console.log(1+2+"2"+2+3)
+
+//**************************** datatypes
+
+/* Primitive or call by value
+String,Number,Boolean, null, undefined,symbol, bigInt
+symbol
+const id=Symbol(12)
+
+
+Non primitiveor call by reference
+
+functions, arrays, objects
+
+arrays
+const hero=["superman","ironman","pablo"]
+
+objects
+let myobj={
+    name="jjijd",
+    age:76
+}
+function
+
+let printfunction=function(){
+    console.log("print something")
+}
+
+
+Javasript is a dynamically type language
+
+*/
